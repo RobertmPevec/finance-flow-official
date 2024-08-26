@@ -1,3 +1,76 @@
-h1 {
-    color: blue;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
 }
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    padding-top: 20px;
+}
+
+.sidebar .sidebar-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #495057;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar ul {
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+}
+
+.sidebar ul li a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+
+.sidebar ul li a:hover {
+    background-color: #495057;
+}
+
+.content {
+    margin-left: 250px;
+    min-height: 100vh;
+}
+
+.navbar {
+    margin-left: 0px !important;
+}
+
+#notificationsDropdown {
+    color: #000000; /* Text color */
+    border-radius: 50%; /* Rounded button */
+    padding: 10px; /* Padding around the icon */
+    position: relative; /* For positioning the badge */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    margin-left: auto; /* Pushes the button to the right */
+    margin-right: 15px; /* Adds some space from the edge */
+
+}
+
+#notificationsDropdown:hover {
+    color: gray;
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.nav-link {
+    font-size: 23px;
+    padding-top: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    display: inline;
+  }
